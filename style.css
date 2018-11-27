@@ -40,3 +40,33 @@
 .section .fa {
   font-size: 50px;
 }
+
+.section img {
+  width: 100%;
+}
+
+.w3-label {
+  color: red;
+}
+
+.w3-input {
+  color: red;
+}
+
+#btn-submit {
+  background-color: #f44336 !important;
+}
+
+.btn-submit {
+  background-color: #f44336 !important;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    margin-top: 190px;
+  }
+  .showcase {
+    height: 400px;
+    padding: 60px 0;
+  }
+}
